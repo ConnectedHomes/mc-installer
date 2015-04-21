@@ -29,4 +29,4 @@ rpm -Uvh http://sourceforge.net/projects/scons/files/scons/2.3.4/scons-2.3.4-1.n
 
 yum -y install devtoolset-2-toolchain
 
-scl enable devtoolset-2 bash
+scl enable devtoolset-2 bash 
