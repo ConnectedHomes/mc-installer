@@ -15,3 +15,8 @@ git clone https://github.com/ConnectedHomes/mc-installer.git
 ./mc-installer/prereq_rhel6.sh
 ./mc-installer/full_install.sh
 ```
+
+### If you want to run the cut down install
+```scl enable python27 devtoolset-2 bash
+./mc-installer/
+```
