@@ -28,5 +28,5 @@ echo /usr/local/lib | sudo tee --append /etc/ld.so.conf > /dev/null
 yum -y update
 yum -y install python27
 scl enable python27 "easy_install pip"
-scl enable python27 ~/mc-installer/install-continue.sh
+scl enable python27 devtoolset-2 ~/mc-installer/install-continue.sh
 
