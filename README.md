@@ -18,5 +18,5 @@ git clone https://github.com/ConnectedHomes/mc-installer.git
 
 ### If you want to run the cut down install
 ```scl enable python27 devtoolset-2 bash
-./mc-installer/
+./mc-installer/install-continue.sh
 ```
